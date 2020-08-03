@@ -1,3 +1,3 @@
-import { log } from './importer'
+import importer from './importer'
 
-log({ test: true })
+importer.log({ test: true })
